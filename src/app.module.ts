@@ -14,6 +14,7 @@ import { UserModule } from './user/user.module';
 import { AuthModule } from './auth/auth.module';
 import { User } from './entity/user.entity';
 import { LighthouseModule } from './lighthouse/lighthouse.module';
+import { SessionModule } from './session/session.module';
 
 @Module({
   imports: [
@@ -25,6 +26,7 @@ import { LighthouseModule } from './lighthouse/lighthouse.module';
     UserModule,
     AuthModule,
     LighthouseModule,
+    SessionModule,
     TypeOrmModule.forRoot({
       type: 'mysql',
       host: 'localhost',
