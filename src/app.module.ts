@@ -35,8 +35,6 @@ import { SessionModule } from './session/session.module';
       password: 'test01!',
       database: 'testDB',
       entities: [
-        /*ComCode,
-        User*/
       ],
       synchronize: false,
       logging: true
