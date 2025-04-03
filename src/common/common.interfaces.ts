@@ -8,10 +8,6 @@ interface IStore {
     telNo: string;
 }
 
-interface ICachedData {
-    data: any
-}
-
 interface IApprData {
     apprNo: number;
     franNm: string;
@@ -37,7 +33,6 @@ interface IToken {
 
 export {
     IStore,
-    ICachedData,
     IApprData,
     IToken
 }
