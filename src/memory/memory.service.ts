@@ -3,7 +3,6 @@ import { Inject, Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Cache } from 'cache-manager';
 import { BaseService } from 'src/base/base.service';
-import { ICachedData } from 'src/common/common.interfaces';
 import { ComCode } from 'src/entity/comcode.entity';
 import { Repository } from 'typeorm';
 
