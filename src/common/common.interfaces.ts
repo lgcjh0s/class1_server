@@ -1,13 +1,3 @@
-interface IStore {
-    drwNo: number;
-    storeCode: string;
-    storeName: string;
-    addr: string;
-    lat: string;
-    lon: string;
-    telNo: string;
-}
-
 interface IApprData {
     apprNo: number;
     franNm: string;
@@ -32,7 +22,6 @@ interface IToken {
 }
 
 export {
-    IStore,
     IApprData,
-    IToken
+    IToken,
 }
